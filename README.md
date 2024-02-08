@@ -3,10 +3,10 @@
 Saya Nur Ainun NIM 2202046 mengerjakan soal Latihan 1 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 # DPR Management System
-### Deskripsi
+## Deskripsi
 Program ini adalah aplikasi sederhana berbasis OOP (Object-Oriented Programming) yang memungkinkan pengguna untuk mengelola daftar anggota DPR. Program ini memiliki fitur dasar seperti menambah, mengubah, dan menghapus data anggota DPR.
 
-### Desain Program
+## Desain Program
 ### Kelas Dpr
 Kelas Dpr merupakan kelas utama yang merepresentasikan anggota DPR. Setiap objek dari kelas ini memiliki atribut seperti id, nama, bidang, dan partai. Kelas ini juga menyediakan metode-metode untuk mengakses dan mengubah nilai atribut.
 
@@ -29,14 +29,17 @@ Sistem akan mencari id yang sesuai dan memperbarui data dengan input baru.
 
 Pengguna dapat menghapus data anggota DPR berdasarkan id yang sudah ada.
 Sistem akan mencari id yang sesuai dan menghapus data tersebut dari daftar.
+#### EXIT (Fitur 5):
 
-### Alur Program
-#### Program dimulai dengan menyediakan menu fitur (Create, Read, Update, Delete, dan Exit) kepada pengguna.
-#### Pengguna memilih salah satu fitur sesuai dengan kebutuhan.
-#### Program menjalankan fitur yang dipilih oleh pengguna.
-#### Proses berulang sampai pengguna memilih keluar (Exit).
+jika pengguna mimilih fitur 5 maka program akan keluar/ selesai.
 
-### Dokumentasi Saat Program Dijalankan
+## Alur Program
+1. Program dimulai dengan menyediakan menu fitur (Create, Read, Update, Delete, dan Exit) kepada pengguna.
+2. Pengguna memilih salah satu fitur sesuai dengan kebutuhan.
+3. Program menjalankan fitur yang dipilih oleh pengguna.
+4. Proses berulang sampai pengguna memilih keluar (Exit).
+
+## Dokumentasi Saat Program Dijalankan
 
 
 
