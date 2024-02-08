@@ -1,11 +1,8 @@
 # LP1DPBO2024C1
-
-# LP1DPBO2024C1
-
-## JANJI
+##### JANJI
 Saya Nur Ainun NIM 2202046 mengerjakan soal Latihan 1 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-## DPR Management System
+# DPR Management System
 ### Deskripsi
 Program ini adalah aplikasi sederhana berbasis OOP (Object-Oriented Programming) yang memungkinkan pengguna untuk mengelola daftar anggota DPR. Program ini memiliki fitur dasar seperti menambah, mengubah, dan menghapus data anggota DPR.
 
