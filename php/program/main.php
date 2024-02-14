@@ -9,15 +9,15 @@ require ('Dpr.php');
 $data_dpr = array();
 
 // Create Data List
-$anggota1 = new Dpr('2202046', 'Nur Ainun', 'pertahanan', 'abc', 'foto\FOTO BUTA.jpg');
+$anggota1 = new Dpr('2202046', 'Nur Ainun', 'Komisi 1', 'Golkar', 'foto\FOTO BUTA.jpg');
 array_push($data_dpr, $anggota1);
-$anggota2 = new Dpr('2202035', 'Iqbal Ramadhan ', 'pengawasan', 'bcd', 'foto\iqbal.jpg');
+$anggota2 = new Dpr('2202035', 'Iqbal ', 'Komisi 2', 'Hanura', 'foto\iqbal.jpg');
 array_push($data_dpr, $anggota2);
-$anggota3 = new Dpr('2202013', 'Refal hadi', 'keuangan', 'dsc', 'foto\refal.jpg');
+$anggota3 = new Dpr('2202013', 'Refal hadi', 'Komisi 3', 'PKS', 'foto\refal.jpg');
 array_push($data_dpr, $anggota3);
 
 // Function to display the table
-function displayTable($data, $count) {
+function tabel($data, $count) {
     echo "<table border='3'>";
     echo "<tr>
         <th> ID </th>
@@ -47,22 +47,23 @@ function displayTable($data, $count) {
 
 // Read Awal
 echo "<h2>DAFTAR NAMA ANGGOTA DPR!</h2>";
-displayTable($data_dpr, 3);
+tabel($data_dpr, 3);
 
 // Update Data
-$data_dpr[1]->setNama("shakila");
-$data_dpr[1]->setbidang("pertahanan");
-$data_dpr[1]->setpartai("apa aja");
+$data_dpr[1]->setNama("Iqbal Ramdhan");
+$data_dpr[1]->setbidang("Komisi 4");
+$data_dpr[1]->setpartai("Perindo");
 
 // Read list setelah di update
-echo "Data Anggota setelah Update" . '<br><br>';
 echo "<h2>DAFTAR NAMA ANGGOTA DPR!</h2>";
-displayTable($data_dpr, 3);
+echo "<em>Data Anggota DPR setelah Di-Update </em>" . '<br><br>';
+tabel($data_dpr, 3);
 
 // Delete Data
+echo "<em>Data Anggota DPR setelah Di-Delete" . '</em><br>';
 array_splice($data_dpr, 1, 1);
 
 // Read list setelah di delete
 echo "<h2>DAFTAR NAMA ANGGOTA DPR!</h2>";
-displayTable($data_dpr, 2);
+tabel($data_dpr, 2);
 ?>
